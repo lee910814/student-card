@@ -1,0 +1,32 @@
+@value makerLightYellow,makerWhite from '../../common/color.css';
+
+/*header*/
+.header{
+    width: 100%;
+    background:makerWhite;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+/*로고*/
+.logo{
+   width:3rem;
+  
+    margin-left: 70px;
+}
+
+/*로그인버튼*/
+.headerbtn{
+    background: #FFC947;
+    border-radius: 25px;
+    width: 130px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 1.5rem;
+}
