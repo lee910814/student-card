@@ -1,0 +1,7 @@
+.preview{
+    flex-basis: 50%;
+    background: turquoise;
+}
+.title{
+    text-align: center;
+}

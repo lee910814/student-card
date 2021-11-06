@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.content{
+    display: flex;
+    flex: 1;
+
+}
+.img{
+    flex-basis: 50%;
+    height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/11/10/21/00/boy-5731001__340.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.description{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+@media(max-width:768px){
+    .content{
+        flex-direction: column;
+    }
+}

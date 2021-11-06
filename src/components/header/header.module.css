@@ -14,7 +14,6 @@
 /*로고*/
 .logo{
    width:3rem;
-  
     margin-left: 70px;
 }
 
@@ -22,11 +21,17 @@
 .headerbtn{
     background: #FFC947;
     border-radius: 25px;
-    width: 130px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
     border: none;
     cursor: pointer;
     color: #fff;
     margin-right: 40px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
+.headerbtn:hover{
+    background: #fff;
+    border: 2px solid #FFC947;
+    color:  #FFC947;
+}
+

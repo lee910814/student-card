@@ -1,4 +1,4 @@
-@value makerLightYellow from '../../common/color.css';
+@value makerLightYellow,makerGrey  from '../../common/color.css';
 
 .footer{
     width: 100%;
@@ -6,6 +6,7 @@
     text-align: center;
 }
 .title{
-    font-size: 2.5rem;
+    font-size: 0.8rem;
     font-weight: 700;
+    color: makerGrey;
 }
